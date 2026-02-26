@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klinik Terapi Gigi - Cherie Dental Makassar</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+:root{
+--pink:#ffb6c1;
+--pink-soft:#ffe4ec;
+}
+
+body{
+background:var(--pink-soft);
+}
+
+header{
+background:var(--pink);
+color:white;
+text-align:center;
+padding:20px;
+animation:fadeDown 1s;
+}
+
+.logo{
+width:80px;
+}
+
+nav{
+background:white;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+padding:15px;
+text-decoration:none;
+color:#ff69b4;
+font-weight:bold;
+}
+
+nav a:hover{
+background:var(--pink-soft);
+}
+
+section{
+padding:40px;
+background:white;
+margin:20px;
+border-radius:10px;
+animation:fadeUp 1s;
+}
+
+h2{
+color:#ff69b4;
+margin-bottom:10px;
+}
+
+.layanan{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.box{
+flex:1 1 200px;
+background:var(--pink-soft);
+padding:15px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.box:hover{
+transform:scale(1.05);
+}
+
+.galeri{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.galeri img{
+width:100%;
+max-width:250px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table,th,td{
+border:1px solid pink;
+padding:10px;
+text-align:center;
+}
+
+form input,textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:1px solid pink;
+border-radius:5px;
+}
+
+button{
+margin-top:10px;
+padding:10px;
+background:var(--pink);
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+iframe{
+width:100%;
+border-radius:10px;
+margin-top:10px;
+}
+
+footer{
+background:var(--pink);
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.wa{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:20px;
+}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(30px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+@keyframes fadeDown{
+from{opacity:0;transform:translateY(-30px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+@media(max-width:768px){
+nav{flex-direction:column;}
+.layanan{flex-direction:column;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" class="logo">
+<h1>Klinik Terapi Gigi</h1>
+<h2>cherie dental Makassar</h2>
+</header>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#layanan">Layanan</a>
+<a href="#galeri">Galeri</a>
+<a href="#jadwal">Jadwal</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<!-- ================= PROFIL ================= -->
+<section id="profil">
+<h2>Profil Klinik</h2>
+
+<div style="text-align:center;">
+
+<!-- Gambar Dokter Gigi Kartun -->
+<img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" 
+class="dokter"
+style="width:220px; margin:20px;">
+
+<p>Klinik Terapi Gigi Cherie Dental Makassar memberikan pelayanan
+perawatan gigi yang aman, nyaman dan profesional dengan dokter gigi berpengalaman.</p>
+
+</div>
+
+</section>
+
+</div>
+
+</section>
+
+</div>
+
+</section>
+
+<section id="layanan">
+<h2>Layanan Kami</h2>
+<div class="layanan">
+<div class="box">Pembersihan Karang Gigi</div>
+<div class="box">Tambal Gigi</div>
+<div class="box">Perawatan Saluran Akar</div>
+<div class="box">Terapi Gusi</div>
+</div>
+</section>
+
+<!-- ================= GALERI ================= -->
+<section id="galeri">
+<h2>Galeri Klinik</h2>
+
+<div class="galeri">
+
+<img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09">
+
+<img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe">
+
+<img src="https://images.unsplash.com/photo-1588776814546-ec7e3d76df48">
+
+<img src="https://images.unsplash.com/photo-1625134673337-519d9f70c7f8">
+
+<img src="https://images.unsplash.com/photo-1598257006626-48b0c252070d">
+
+<img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322">
+
+</div>
+
+</section>
+
+<section id="jadwal">
+<h2>Jadwal Praktek</h2>
+<table>
+<tr><th>Hari</th><th>Jam</th></tr>
+<tr><td>Senin - Jumat</td><td>08.00 - 16.00</td></tr>
+<tr><td>Sabtu</td><td>08.00 - 12.00</td></tr>
+<tr><td>Minggu</td><td>Tutup</td></tr>
+</table>
+</section>
+
+<section id="kontak">
+<h2>Hubungi Kami</h2>
+<form>
+<input type="text" placeholder="Nama Anda" required>
+<input type="email" placeholder="Email" required>
+<textarea rows="4" placeholder="Pesan"></textarea>
+<button type="submit">Kirim</button>
+</form>
+
+<h3>Lokasi Klinik (Makassar)</h3>
+<iframe 
+src="https://www.google.com/maps?q=Makassar&output=embed"
+height="300">
+</iframe>
+</section>
+
+<a href=https://wa.me/6281234567890" class="wa">WA</a>
+<footer
+    <p>&copy; 2026 Klinik Terapi Gigi senyum  Makassar</p>
+</footer>
+
+</body>
+</html>
